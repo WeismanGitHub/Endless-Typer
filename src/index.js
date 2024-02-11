@@ -1,6 +1,7 @@
 const { Client } = require('discord.js-selfbot-v13');
-const client = new Client();
 require("dotenv").config();
+
+const client = new Client();
 
 client.on('ready', async () => {
     console.log(`ready!`);
